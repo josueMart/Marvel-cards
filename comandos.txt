@@ -1,0 +1,31 @@
+Windows
+nom install stylus -g
+
+mac/linux
+sudo npm install stylus -g
+
+compilar archivos con stylus
+primero ir a la carpeta del archivo usando cd
+stylus nombre-del-archivo.styl
+
+escuchar cambios
+
+stylus app.styl -w
+
+comprimir archivo 
+
+stylus app.styl -c
+
+Instalar jade
+sudo npm install -g jade
+
+compilar jade
+jade index.jade
+
+html legible en jade
+
+jade index.jade -P (p es mayuscula)
+
+Exportar archivo stylus a otra carpeta 
+
+stylus -w -c -o ../public/css/ app.styl
