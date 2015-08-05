@@ -1,18 +1,19 @@
-body {
-  font-family: Arial;
-  font-size: 16px;
+body{
+	font-family: Arial;
+	font-size: 16px;
 }
-.Card {
-  background-color: #c2ac37;
-  border-radius: 0.5em;
-  border: 5px solid #808080;
-  width: 200px;
+
+.Card{
+	background: #C2AC37;
+	border-radius: .5em;
+	border: 5px solid gray;
+	width:200px;
 }
-.Card-description {
-  background-color: #fff;
-  padding: 0.5em;
-  font-size: 12px;
+.Card-description{
+	background-color: white;
+	padding: .5em;
+	font-size: 12px;
 }
-.Card-image {
-  width: 100%;
+.Card-image{
+	width: 100%;
 }
