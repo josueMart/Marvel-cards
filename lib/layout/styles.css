@@ -1,0 +1,38 @@
+.Layout {
+  display: flex;
+  padding: 0.5px;
+  border: 1px solid #f00;
+  margin: 0.5em;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-image: url("../images/city.jpg");
+  background-size: cover;
+}
+.Layout > section {
+  margin: 0.5em;
+}
+.Layout-main {
+  display: flex;
+  justify-content: space-between;
+}
+.Layout-status {
+  width: 200px;
+}
+.Layout-battle {
+  flex: 1;
+  margin: 0 0.5em;
+  background-image: url("../images/pattern.jpg");
+}
+.Layout-phases {
+  width: 200px;
+  position: relative;
+}
+.Layout-antagonist {
+  display: flex;
+  justify-content: space-between;
+}
+.Layout-player {
+  display: flex;
+  justify-content: space-between;
+}
